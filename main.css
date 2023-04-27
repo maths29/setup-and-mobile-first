@@ -14,7 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100vw;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .active {
@@ -50,47 +50,16 @@ nav {
   font-size: 16px;
   color: #344563;
   line-height: 24px;
+  letter-spacing: 1px;
 }
 
-.img1 {
+#img {
   position: absolute;
-  top: 5px;
-}
-
-.img2 {
-  position: absolute;
-  top: 5px;
-  left: 127px;
-}
-
-.img3 {
-  position: absolute;
-  top: 40px;
-  left: 340px;
-}
-
-.img4 {
-  position: absolute;
-  top: 15px;
-  left: 129px;
-}
-
-.img5 {
-  position: absolute;
-  top: -15px;
-  left: 320px;
-}
-
-.img8 {
-  position: absolute;
-  top: 0 px;
-  left: 135px;
-}
-
-.img7 {
-  position: absolute;
-  top: 0 px;
-  left: 185px;
+  width: 397px;
+  height: 587.15px;
+  left: 4px;
+  top: -52px;
+  background: url(img/header-shapes\ mobile.png) no-repeat;
 }
 
 .text-bottom2 li {
@@ -102,36 +71,22 @@ nav {
   font-weight: 500;
   color: #7f8cff;
   line-height: 24px;
+  margin-top: -2px;
 }
 
 .text-bottom2 {
   display: flex;
-  left: 65px;
-}
-
-.text-bottom2 ul {
-  left: -60px;
+  align-items: flex-start;
+  margin-left: -12px;
+  margin-top: -10px;
 }
 
 .social {
   padding: 12px;
-  margin-left: -12px;
+  margin-left: -42px;
   margin-top: -9px;
 }
 
 .rectangle-item {
   display: flex;
-}
-
-.rectangle-item img {
-  height: 15px;
-  float: right;
-  margin-top: 32px;
-  margin-left: 189px;
-}
-
-.dimg {
-  height: 35px;
-  width: 40px;
-  margin-left: 294px;
 }
